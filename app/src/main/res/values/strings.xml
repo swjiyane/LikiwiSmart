@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Likiwi Smart</string>
+    <string name="title_activity_profile_user">Map</string>
+
+    <string-array name="accountType">
+        <item>Choose account type</item>
+        <item>BusinessAccount (Event Organiser, Tavern Owner, Club Owner...)</item>
+        <item>PersonalAccount (User)</item>
+    </string-array>
+</resources>

@@ -1,0 +1,101 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e3ddd8"
+    tools:context="com.example.codetribe.likiwismart.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:weightSum="1"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Search"
+            android:drawableEnd="@mipmap/ic_search"
+            android:onClick="search"
+            android:textStyle="normal" />
+
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@mipmap/ic_person"
+            android:onClick="search"
+            android:hint="Dr.Vukosi Marivate"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textAlignment="textEnd"
+            android:textColorHint="#000"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@mipmap/ic_person"
+            android:hint="Pato Prini"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textAlignment="textEnd"
+            android:onClick="search"
+            android:textColorHint="#000"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@mipmap/ic_person"
+            android:hint="Shobna"
+            android:textColorHint="#000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textAlignment="textEnd"
+            android:onClick="search"
+            android:textStyle="normal" />
+
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dr.Jeff Yu- Jen Chen"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textAlignment="textEnd"
+            android:textColorHint="#000"
+            android:layout_marginBottom="10dp"
+            android:drawableStart="@mipmap/ic_person"
+            android:onClick="search"
+            android:textStyle="normal" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search using face detector"
+            android:textAllCaps="true"
+             android:textSize="8dp"
+            android:layout_gravity="right"
+            />
+
+
+        <ImageButton
+                android:id="@+id/search_cam"
+                android:layout_width="121dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:src="@mipmap/ic_camera" />
+
+        </LinearLayout>
+
+</ScrollView>

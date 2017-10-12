@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.codetribe.likiwismart.ViewProfileUser">
+
+    <ImageView
+        android:id="@+id/viewpic"
+        android:src="@drawable/cupcakeicon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/viewName"
+        android:textSize="28sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:text="Sbusiso"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/viewKin1"
+        android:textSize="28sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:text="todo masilo"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewCel2"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        android:text="071 234 5678"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/viewKin2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:text="pule masilo"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewCel1"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        android:text="0712345678"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

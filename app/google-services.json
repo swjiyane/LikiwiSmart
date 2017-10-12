@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "944431580266",
+    "firebase_url": "https://mylikwismart.firebaseio.com",
+    "project_id": "mylikwismart",
+    "storage_bucket": "mylikwismart.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944431580266:android:59feddc869201331",
+        "android_client_info": {
+          "package_name": "com.example.codetribe.likiwismart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944431580266-dviudk54vk0tsfcd5rbtdqqjg0qi97p1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.codetribe.likiwismart",
+            "certificate_hash": "881a068b7485a9c31a3cf3a8c8e85d7c7e86123a"
+          }
+        },
+        {
+          "client_id": "944431580266-ea7ehndfpnu5fj82gk523dhqmvg3boc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1JhfLN5tWSJvrVu5GxsI8UGYxmyQNl_A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944431580266-ea7ehndfpnu5fj82gk523dhqmvg3boc6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
